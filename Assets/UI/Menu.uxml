@@ -1,7 +1,0 @@
-<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
-    <Style src="project://database/Assets/UI/Menu.uss?fileID=7433441132597879392&amp;guid=be054d479af3b044eae0dcf0e0318b98&amp;type=3#Menu" />
-    <ui:VisualElement name="Menu" class="panel" style="flex-grow: 1; background-size: 100% 100%; background-position-x: center 0; width: 20%; height: 40%; align-items: stretch; justify-content: space-around; align-self: stretch; align-content: auto; position: relative; top: 30%; bottom: 0; left: 40%; right: 40%; border-top-left-radius: 25px; border-top-right-radius: 25px; border-bottom-right-radius: 25px; border-bottom-left-radius: 25px; border-top-width: 10px; border-right-width: 10px; border-bottom-width: 10px; border-left-width: 10px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0);">
-        <ui:Button text="Button" name="Button" />
-        <ui:Button text="Button" />
-    </ui:VisualElement>
-</ui:UXML>

@@ -5,7 +5,7 @@ public class cameraMovement : MonoBehaviour
 
     [SerializeField] private Transform cameraTransform;
 
-    private float moveSpeed = 6f; // Default Speed
+    private float moveSpeed = 10f; // Default Speed
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -18,7 +18,10 @@ public class cameraMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        moveCamera();
+        if ( !GameStats.Instance.openMenu )
+        {
+            moveCamera();
+        }
     }
 
     private void moveCamera(){

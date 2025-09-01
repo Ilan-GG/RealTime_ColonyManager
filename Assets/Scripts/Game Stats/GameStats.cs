@@ -13,6 +13,9 @@ public class GameStats : MonoBehaviour
     private Coroutine TurnCoroutine;
     private bool isRunning = false;
 
+    // User Interface Data
+    public bool openMenu = false;
+
     // Game Stats/Data
 
     public int Food = 0;
@@ -37,6 +40,11 @@ public class GameStats : MonoBehaviour
         }
     }
 
+// Stats Management Functions
+
+    public void menuState(bool state){
+        openMenu = state;
+    }
 
     public void AddFood(int x)
     {
@@ -52,7 +60,7 @@ public class GameStats : MonoBehaviour
         AddFood(FoodIncome);
     }
 
-    // Time Simulation Part
+// Time Simulation Part
     
     void Start()
     {
